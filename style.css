@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-image: url("blob-scene-haikei.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-card {
+    background: #f9f9f9;
+    border-radius: 30px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    height: 500px;
+    width: 400px;
+    text-align: center;
+}
+
+.login-card > h1 {
+    margin-top: 40px;
+    font-weight: 600;
+    font-size: 40px;
+    color: #011220;
+}
+.login-card > h2 {
+    color: rgb(1, 18, 32, 0.6);
+    margin-top: 12px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.login-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.login-form > input {
+    height: 50px;
+    padding-left: 15px;
+    color: #011220;
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 15px;
+    border-radius: 20px;
+    border: 1px solid #bfbfbf;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    transition: 0.4s ease-in-out;
+}
+
+.login-form > input:hover {
+    border: 1px solid #fbae3c;
+}
+
+.login-form > a {
+    margin-top: 20px;
+    text-decoration: none;
+    color: #da8f1f;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: start;
+    padding-left: 5px;
+    transition: 0.5s ease;
+    width: fit-content;
+}
+
+.login-form > a:hover {
+    color: #011220;
+}
+
+.login-form > button {
+    margin-top: 50px;
+    width: 75%;
+    align-self: center;
+    height: 60px;
+    cursor: pointer;
+    color: #f9f9f9;
+    font-weight: 500;
+    font-size: 30px;
+    background: #fbae3c;
+    outline: none;
+    border-radius: 50px;
+    border: none;
+    transition: 0.5s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.login-form > button:hover {
+    background: #011220;
+}
+
+
+
